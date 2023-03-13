@@ -1,5 +1,5 @@
 # Python_Podstawy
-Kurs SDA
+Kurs SDA\
 <b>WYRAŻENIA LISTOWE \
 </b>W wyrażeniu listowym nową listę tworzymy ze starej\
 old_list = [1,2,3,4,5,6]\
