@@ -29,4 +29,16 @@ text.title()  # pierwsza litera każdego słowa wielka\
 text.swapcase()  # małe litery zamienia na wielkie, wielkie na małe\
 text.index(“a”) #wyświetlanie indeksu wskazanego obiektu\
 text.find(“a”) # to co indeks\
+txt[::-1] - odwrócenie listy\
+txt[-2:]+txt[:-2] = zmiana ostatnich pozycji na pierwsze\
+txt.replace(“x”, “y”) - zmiana każdego x na y\
+x = [*set(txt)] lub list(set(txt) - usuwanie duplikatu ze stringa\
+<br>
+## ZIP
+
+<ul>
+
+<li>przyjmuje dwie lub więcej listy </li>
+<li>zwraca sekwencję krotek, gdzie każdy element krotki pochodzi z innej listy</li>
+<li>jeśli funkcje mają różne długości przyjmuje najkrótszą</li>
 
