@@ -41,4 +41,26 @@ x = [*set(txt)] lub list(set(txt) - usuwanie duplikatu ze stringa\
 <li>przyjmuje dwie lub więcej listy </li>
 <li>zwraca sekwencję krotek, gdzie każdy element krotki pochodzi z innej listy</li>
 <li>jeśli funkcje mają różne długości przyjmuje najkrótszą</li>
+<br>
+</ul>
 
+a = [‘a’, ‘b’, ‘c’] \
+b = [1,2,3] \
+c = list(zip(a, b) = [(‘a’,1), (‘b’,2), (‘c’,3)]
+<br>
+## SET
+<ul>
+<li>w przeciwieństwie do list, kolejność elementów w zbiorze nie jest ustalona (ani istotna)</li>
+<li>kolejną różnicą jest to, że elementy zbioru nigdy się nie powtarzają - wszystkie elementy są
+  unikalne</li>
+<li>zbiór tworzymy podając jego elementy rozdzielone przecinkami w nawiasach klamrowych</li>
+<li>można też przekształcić listę w zbiór i ponownie zbiór na listę. Jest to najprostszy sposób na
+  usunięcie duplikatów z listy</li>
+</ul>
+ <br>
+  
+<b> WYRAŻENIA SET \
+</b>UWAGA! Zmiana nawiasu kwadratowego na klamrowy\
+name_list = ['ala', 'kasia', 'zenek', 'norbet']\
+name_lenght = {len(word) for word in name_list}\
+name_lenght = {3, 5, 6}\
