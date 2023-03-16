@@ -64,3 +64,14 @@ c = list(zip(a, b) = [(‘a’,1), (‘b’,2), (‘c’,3)]
 name_list = ['ala', 'kasia', 'zenek', 'norbet']\
 name_lenght = {len(word) for word in name_list}\
 name_lenght = {3, 5, 6}\
+<br>
+## SŁOWNIK DICT
+słownik udostępnia trzy ważne metody:
+- keys - zwraca zbiór wszystkich kluczy
+- values - zwraca zbiór wszystkich wartości
+- items - zwraca zbiór wszystkich par (klucz,
+wartość)\
+Należy pamiętać, że kiedy iterujemy po słowniku w pętli for to każdy kolejny element jest kluczem, a nie parą (klucz, wartość)\
+
+
+
