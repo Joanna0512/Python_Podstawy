@@ -90,5 +90,9 @@ Należy pamiętać, że kiedy iterujemy po słowniku w pętli for to każdy kole
 
 ![image](https://user-images.githubusercontent.com/110059749/225618721-8d788534-9199-4326-973f-3f4075c76f2b.png)
 
+## OPERACJE NA PILKACH\  
+f = open('file.txt', mode='w')\
+f.write ('ala ma psa')\
+f.close()
 
 
