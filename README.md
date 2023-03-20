@@ -95,4 +95,20 @@ f = open('file.txt', mode='w')\
 f.write ('ala ma psa')\
 f.close()
 
+<b>Tryby otwarcia pliku\
+</b>○ Funkcja open posiada następujące tryby:\
+○ r - tylko do odczytu (domyślny)\
+○ w - do zapisu, jeśli plik nie istnieje to zostanie utworzony, jeśli istnieje jego stara zawartość zostanie\
+usunięta. UWAGA! jeśli, chcę żeby to co wpisałam się zapisało, muszę zrobić f.close()\
+○ x - do tworzenia, operacja nie powiedzie się, jeśli plik już istnieje\
+○ a - dopisywanie, jeśli plik nie istnieje to zostanie utworzony, jeśli istnieje to nowa treść zostanie
+dopisana\
+○ t - tryb tekstowy (domyślny)\
+○ b - tryb binarny\
+○ + - oznacza, że po otwarciu kursor ustawi się na końcu pliku. Domyślnie ustawia się na początku.\
 
+Jeśli nie chcę za każdym razem używać f.close() używamy funkcji “with open”
+przykład:\
+with open('file.txt', mode='w') as file_txt:\
+  for t in range(100):\
+    file_txt.write(f'{t} C\n')
