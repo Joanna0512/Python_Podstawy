@@ -106,9 +106,31 @@ dopisana\
 ○ t - tryb tekstowy (domyślny)\
 ○ b - tryb binarny\
 ○ + - oznacza, że po otwarciu kursor ustawi się na końcu pliku. Domyślnie ustawia się na początku.\
-
+<br>
+x= "hello Joann"\
+f.write(x lub "przykładowy tekst")\
+f.writelines(jak wyżej)\
+<br>
 Jeśli nie chcę za każdym razem używać f.close() używamy funkcji “with open”
 przykład:\
+<br>
 with open('file.txt', mode='w') as file_txt:\
   for t in range(100):\
-    file_txt.write(f'{t} C\n')
+    file_txt.write(f'{t} C\n')\
+czyli wydrukuj t(liczby od 0 do 100 i C, \n = nowa linijka\
+
+Drukowanie zawartości pliku:\
+file_2 = open('file2.txt', mode='r')\
+tekst_z_pliku = file_2.read()\
+tekst_z_pliku.split('\n') - każda wartość od nowej linijki\
+<br>
+p = open('100_pan_tadeusz.txt',mode='r')\
+<br>
+while(True):\
+  line =p.readline()\
+  if not line:\
+    break\
+  print(line)
+
+
+    
