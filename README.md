@@ -14,7 +14,21 @@ x%2 = nieparzysta \
 
 <b>list.pop([i])\
 </b>Remove the item at the given position in the list, and return it. If no index is specified, a.pop() removes and returns the last item in the list. 
+<br>
 
+<b> FUNKCJA ENUMERATE\
+</b> umożliwia iteracje po obiektach, przy jednoczesnej informacji którą iterację wykonujemy \
+<br>
+for imie in enumerate(imiona):\
+    print(imie)\
+(0, 'a')\
+(1, 'b')\
+jeśli dodam dodatkowy parament np. count wyprinuje się następujacy wynik:\
+<br>
+for count, imie in enumerate(imiona):\
+    print(count, imie)\
+0, a\
+1, b
 ## STRINGI
 </b>SPLIT - przekształca string w listę, ale split na samej liście już nie da się użyć.\
 fruit = "apple,banana,pear"\
